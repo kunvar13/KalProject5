@@ -9,7 +9,7 @@ setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
 	python -m venv .devops &&\
-	   source .devops/Scripts/activate
+		source .devops/Scripts/activate
 
 install:
 	# This should be run from inside a virtualenv
